@@ -12,11 +12,13 @@ header{
 }
 
 header nav{
-    width: 70%;
     height: 80px;
-    margin: auto;
     position: relative;
-    
+}
+
+header nav, main{
+    width: 70%;
+    margin: auto;
 }
 
 nav img{
@@ -69,7 +71,6 @@ nav img{
 }
 
 .jumbo-content{
-    height: 500px;
     width: 650px;
     margin: auto;
     padding: 100px 0;
@@ -113,4 +114,36 @@ nav img{
 .buttons a:last-child{
     color: white;
     background-color: #23272a;
+}
+
+/* corpo della pagina */
+.section{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.section img{
+    width: 600px;
+    float: left;
+}
+
+/* testo della sezione */
+.section-text{
+    width: 320px;
+    float: left;
+    position: absolute;
+    right: 0;
+}
+
+.section-text-top{
+    color: #23272a;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.section-text-bottom{
+    color: #23272a;
+    font-size: 18px;
+    line-height: 1.6;
 }
