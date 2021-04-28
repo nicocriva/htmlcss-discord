@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* testata */
+header{
+    background-color: #3161e0;
+}
+
+header nav{
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    position: relative;
+}
+
+nav img{
+    margin-top: calc(80px / 2);
+    transform: translate(0, -50%);
+    float: left;
+}
+
+.nav-menu{
+    width: 500px;
+    margin-top: calc(80px / 2);
+    transform: translate(0, -50%);
+    float: left;
+}
+
+.nav-menu{
+    width: auto;
+    margin-left: 130px;
+}
+
+.nav-menu ul li{
+    color: white;
+    list-style-type:none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 0 20px;
+} 
+
+.pulsante.accedi{
+    margin-top: calc(80px / 2);
+    transform: translate(0, -50%);
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    right: 0px;
+    position: absolute;
+}
